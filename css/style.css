@@ -1,0 +1,170 @@
+/******* Main ******/
+
+body{
+    margin-top: 60px;
+    background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Poppins;
+}
+
+p{
+    font-family: Roboto;
+}
+
+.h1-underline{
+    text-decoration: underline #a9d6f8;
+}
+
+
+/******* Navbar ******/
+
+#navbar{
+    background-color: #e2eef8;
+    font-family: poppins;
+    
+}
+
+.navbarBrand{
+    font-size: 25px;
+}
+
+
+/******* Carousel ******/
+.carousel-item{
+    
+    height: 300px;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+
+}
+
+
+/******* Section island Pag ******/
+
+#pag{
+    margin-top: 50px;
+}
+
+.main-h1{
+    font-size: 30px;
+    padding-bottom: 15px; 
+}
+
+.img1 {
+    width:100%;
+    margin-top: 60px;
+}
+
+.pag-right{
+    padding-bottom: 5px;
+}
+
+.pag-left{
+    padding-right: 50px;
+}
+
+/******* Pag triangle ******/
+
+.image-triangle{
+    width: 100%;
+    height: 450px;
+}
+
+/******* Accomodation ******/
+.hover{
+    transition: 1s;
+}
+
+.hover:hover{
+    transform: scale(1.1);
+
+}
+
+.card img{
+    max-width: 100%;
+    height: 150px;
+}
+
+.accomodation{
+    text-align: center;
+    margin: 30px 0 30px 0;
+    padding: 30px;
+    border-bottom: #a9d6f8 3px solid;
+    background-color: #e1e3f3;
+}
+
+.apartments-cont{
+    margin-bottom: 100px;
+}
+
+/******* Pagus******/
+
+#pagus-container{
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.img3{
+    width: 100%;
+}
+
+/******* Parallax ******/
+.food{
+    text-align: center;
+    margin: 30px 0 30px 0;
+    padding: 30px;
+    border-bottom: #a9d6f8 3px solid;
+    background-color: #e1e3f3;
+}
+
+.parallax{
+    position: relative;
+    text-align: center;
+}
+
+.parallax-text-inside{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.para{
+    background: url(../img/cheese.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    opacity: 0.7;
+}
+
+
+
+
+/******* Contact******/
+
+#contact{
+    background: url(../img/img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    border-top: #eaeef1 3px solid;
+    border-bottom: #eaeef1 3px solid;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+}
+/******* Footer******/
+
+footer{
+    padding: 20px;
+}
